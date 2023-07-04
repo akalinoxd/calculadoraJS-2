@@ -1,0 +1,6 @@
+armazenar todos os valores em uma variavel pra fazer com que ela faça as contas sozinha
+ja que se eu colocar 2+2*5 em uma variavel o programa vai resolver pela prioridade da 
+matematica, e nao por ordem de inserção
+
+agora eu só preciso descobrir como eu vou fazer pra transformar a variavel de string pra
+inteiro sem perder nenhum dos elementos dela

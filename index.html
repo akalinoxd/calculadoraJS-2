@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main id="calculadora">
+        <section id="tela">
+            ‎
+        </section>
+
+        <section id="botoes">
+            <input type="button" value="AC" class="botao" id="delet" onclick="deletar()">
+            <input type="button" value="/" class="botao" id="divisao" onclick="exibirNumTela(this.value), getVal(this.value)">
+            <input type="button" value="*" class="botao" id="multiplicacao" onclick="exibirNumTela(this.value), getVal(this.value)">
+
+            <input type="button" value="7" class="botao num" id="sete" onclick="exibirNumTela(this.value), getVal(this.value)">
+            <input type="button" value="8" class="botao num" id="oito" onclick="exibirNumTela(this.value), getVal(this.value)">
+            <input type="button" value="9" class="botao num" id="nove" onclick="exibirNumTela(this.value), getVal(this.value)">
+            <input type="button" value="+" class="botao" id="soma" onclick="exibirNumTela(this.value), getVal(this.value)"">
+
+            <input type="button" value="4" class="botao num" id="quatro" onclick="exibirNumTela(this.value), getVal(this.value)">
+            <input type="button" value="5" class="botao num" id="cinco" onclick="exibirNumTela(this.value), getVal(this.value)">
+            <input type="button" value="6" class="botao num" id="seis" onclick="exibirNumTela(this.value), getVal(this.value)">
+            <input type="button" value="-" class="botao" id="subtracao" onclick="exibirNumTela(this.value), getVal(this.value)">
+
+            <input type="button" value="1" class="botao num" id="um" onclick="exibirNumTela(this.value), getVal(this.value)">
+            <input type="button" value="2" class="botao num" id="dois" onclick="exibirNumTela(this.value), getVal(this.value)">
+            <input type="button" value="3" class="botao num" id="tres" onclick="exibirNumTela(this.value), getVal(this.value)">
+
+            <input type="button" value="0" class="botao num" id="zero" onclick="exibirNumTela(this.value), getVal(this.value)">
+            <input type="button" value="." class="botao" id="ponto" onclick="exibirNumTela(this.value), getVal(this.value)">
+            <input type="button" value="=" class="botao" id="igual" onclick="resultado()">
+        </section>
+    </main>
+</body>
+    <script src="script/script.js"></script>
+</html>
